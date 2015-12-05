@@ -66,6 +66,38 @@
     <b>Teacher</b>
     <br />
     <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <br />
+    <%= link_to 'My Dashboard', dashboard_path %>
+  </div>
+  <br />
+  <div class="col-xs-12 col-sm-3">
+    <b>About</b>
+    <br />
+    <%= link_to 'Team', '#' %>
+    <br />
+    <%= link_to 'Careers', '#' %>
+    <br />
+    <%= link_to 'Privacy Policy', '#' %>
+  </div>
+  <div class ="col-xs-12 col-sm-3">
+    <b>Contact</b>
+    <br />
+    lby75429@yahoo.com.tw
+    <br />
+    Red Bricks Area
+    <br />
+    Allston MA, 02134
+  </div>
+  <div class="col-xs-12 col-sm-3 social">
+    <b>Social</b>
+    <br />
+    <br />
+    <%= link_to 'https://www.facebook.com/boyang.liao.9' do %>
+      <%= image_tag 'fb.png', :class => 'social-button' %>
+    <% end %>  
+    <%= link_to 'https://github.com/PYLiao' do %>
+      <%= image_tag 'gh.png', :class => 'social-button' %>
+    <% end %>
   </div>
 </div>
 </body>
