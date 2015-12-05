@@ -1,4 +1,4 @@
-$footer-height: 200px;
+$footer-height: 100px;
 
 html,
 body {
@@ -40,7 +40,7 @@ body {
   text-decoration:none;
 }
 
-$footer-height-mobile: 200px;
+$footer-height-mobile: 310px;
 @media (max-width: 750px) {
   #footer {
     height:$footer-height-mobile;

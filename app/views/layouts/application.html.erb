@@ -63,13 +63,13 @@
 
 <div id="footer">
   <div class="container">
-    <b>Teacher</b>
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
-    <br />
-    <%= link_to 'My Dashboard', dashboard_path %>
-  </div>
-  <br />
+    <div class="col-xs-12 col-sm-3">
+      <b>Teacher</b>
+      <br />
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br />
+      <%= link_to 'My Dashboard', dashboard_path %>
+    </div>
   <div class="col-xs-12 col-sm-3">
     <b>About</b>
     <br />
@@ -99,6 +99,7 @@
       <%= image_tag 'gh.png', :class => 'social-button' %>
     <% end %>
   </div>
+</div>
 </div>
 </body>
 </html>
